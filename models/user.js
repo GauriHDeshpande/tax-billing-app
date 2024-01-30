@@ -13,6 +13,12 @@ const userSchema = new mongoose.Schema({
     },
     username: {
         type: String
+    },
+    salary: {
+        type: Number
+    },
+    status: {
+        type: String,
     }
 }, {timestamps: true});
 
